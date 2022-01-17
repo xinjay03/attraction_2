@@ -1,0 +1,172 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family:微軟正黑體;
+    text-decoration: none;
+    box-sizing: border-box;
+  }
+  div.menu_bar{
+    width: 100%;
+    height:5rem;
+    overflow: hidden;
+    background-color: #f2f2f2;
+  }
+  div.menu_bar>.icon{
+      width: 30%;
+      height: auto;
+      color: #a7C6D9;      
+  }
+
+  div.menu_bar>.icon>img{
+    height:80px;
+    width: 80px;;
+    border-radius: 50%;     /*邊框圓弧*/
+    object-fit: cover;      /*圖片fit邊框*/
+    margin-bottom: 1rem;  
+    float:left;
+    margin-left: 2%;
+  }
+  div.menu_bar>.icon>p{
+      font-size: 60px;
+      margin-left: 5%;
+      float: left;
+      line-height: 80px;
+      letter-spacing: 10px;
+  }
+
+  div.button{
+      font-size: 35px;
+      float: right;
+      padding-right: 2%;
+      line-height: 80px;
+      letter-spacing: 10px;
+    }
+    
+    div.button>a{
+        color: #3b3b3b;
+        padding: 10px 15px;
+  }
+
+  
+.map{
+    font-size: 20px;
+    line-height: 40px;
+    padding-left:5%;
+}
+h4{
+    font-size: 23px;
+    color: #3b3b3b;
+    padding-top: 10%;
+}
+.heading{
+    font-size: 40px;
+    letter-spacing: 5px;
+    padding-left: 5%;
+    color: #3b3b3b;
+}
+  .flowers .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem 7rem;
+}
+.flowers ul li{
+    list-style:none;
+}
+.flowers p{
+    font-size: 2rem;
+    color:rgb(36, 36, 36);
+    padding-top: 1rem 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+.flowers .box-container .box{
+    height: 14rem;
+    width: 18rem;
+    border-radius: 1rem;
+    margin: 2rem;
+    overflow: hidden;
+    cursor: pointer;
+}
+.flowers .box-container .box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.flowers .box-container .box:hover img{           /*圖片放大縮小*/
+    transform: scale(1.2);
+}
+
+  #page1 {
+      width: 100%;
+      height: 45vw;
+      background-size: 100% 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-image: url(風鈴木花道.jpg);
+  }
+
+  #page1>p{
+      font-size: 40px;
+      color: #f2f2f2;
+      padding-left: 2%;
+  }
+  #page1>p.p1{
+    display: inline-block;
+    font-size: 80px;
+    margin-top: 27%;
+    border-bottom: 3px solid;
+  }
+
+  #page1>p.p2{
+      padding-top: 2%;
+  }
+
+  div.page2{
+      width: auto;
+      height: auto;
+      display: flex;
+      align-items: center;
+      justify-content: left;
+  }
+
+  .introduce{
+      width: 65%;
+      padding-top:3% ;
+      height: auto;
+      padding-left: 5%;
+      
+  }
+  .introduce>.introduce_top{
+      padding-bottom: 2%;
+      font-size: 35px;
+  }
+  .introduce_contain{
+      width:auto;
+      height: auto;
+      margin: 0;
+      padding: 0;
+  }
+
+
+.introduce_contain>p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3%;
+    font-size: 30px;
+    color:#3b3b3b;
+    line-height: 50px;
+    background-color:#f2f2f2;
+}
+
+
+
+  div.pagebuttom{
+    width: 100%;
+    height:auto;
+    padding:2%;
+    background-color: #a7C6D9;
+  }
